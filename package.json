@@ -1,6 +1,11 @@
+
+
+
+
+
 {
   "name": "sarahishere",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "description": "sarahishere",
   "main": "index.js",
   "scripts": {
@@ -11,8 +16,7 @@
   ],
   "author": "sarahishere",
   "license": "ISC",
-  "dependencies": {
-    "sarahishere": "^0.1.0"
-  },
-  "devDependencies": {}
+   "bin": {
+    "sarahishere": "./index.js"
+  }
 }
